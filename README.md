@@ -11,24 +11,19 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpass'
 
 ## IDE
 
-idea2018 licence server 
+idea2018 active code
 
 ```
-http://idea.toocruel.net
+http://idea.lanyus.com/
+```
 
-http://idea.youbbs.org
+## Maven 
 
-http://idea.congm.in
+```
+vim ~/.bash_profile
+export M2_HOME=/Users/username/Documents/maven #这里是你maven的路径
+export PATH=$PATH:$M2_HOME/bin
+source ~/.bash_profile
 
-http://im.js.cn:8888
-
-http://intellij.mandroid.cn/
-
-http://idea.imsxm.com/
-
-http://idea.iteblog.com/key.php
-
-http://xdouble.cn:8888/
- 
-http://hb5.s.osidea.cc:1017
+mvn -v
 ```
