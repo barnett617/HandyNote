@@ -34,3 +34,7 @@ mvn -v
 
 - [maven-install-plugin](http://maven.apache.org/plugins/maven-install-plugin/usage.html)
 - [maven-install-plugin/examples](http://maven.apache.org/plugins/maven-install-plugin/examples/specific-local-repo.html)
+
+### 插件问题
+
+- [maven-plugins-can-not-be-found-in-intellij](https://stackoverflow.com/questions/20496239/maven-plugins-can-not-be-found-in-intellij/27168770)
