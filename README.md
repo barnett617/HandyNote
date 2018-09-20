@@ -19,6 +19,8 @@ http://idea.lanyus.com/
 
 ## Maven 
 
+### 环境变量
+
 ```
 vim ~/.bash_profile
 export M2_HOME=/Users/username/Documents/maven #这里是你maven的路径
@@ -27,3 +29,8 @@ source ~/.bash_profile
 
 mvn -v
 ```
+
+### 插件使用
+
+- [maven-install-plugin](http://maven.apache.org/plugins/maven-install-plugin/usage.html)
+- [maven-install-plugin/examples](http://maven.apache.org/plugins/maven-install-plugin/examples/specific-local-repo.html)
