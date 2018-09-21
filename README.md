@@ -142,22 +142,22 @@ chsh -s /bin/bash
 
 ## Git
 
-### init git at first time to use it
+### 初始化git
 
-1. (Optional) See your configures
+1. 查看配置
 
 ```
 git config --list
 ```
 
-2. Set your name and email
+2. 初始化用户和邮箱
 
 ```
 git config --global user.name "your name"
 git config --global user.email your email
 ```
 
-### generate your ssh key to use ssh way to remote repository
+### 本地生成ssh key并放在远端以实现SSH访问
 
 1. Generate a ssh key locally
 
@@ -172,4 +172,69 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 3. Put it into your ssh keys in your romote repository
+
+### 解决使用vs code打开从github上git clone下来的项目，修改后并做git remote关联，在git push时每次都要输入账号和密码
+
+#### 存储全局账号
+
+```
+git config --global credential.helper wincred
+```
+
+### git全局配置用户名，因误操作产生多条配置，导致无法修改
+
+#### 产生背景
+
+使用如下错误命令及参数修改配置
+
+```
+git config --global user.name = "M1kewang"
+```
+
+首先修改配置项user.name并不需要等号，也不需要引号
+
+这样配置的结果就是产生了两条user.name，如下
+
+```
+git config -l
+
+user.name=magi
+user.name==
+```
+
+即产生了一条user.name值为一个等号的记录
+
+此时再去对user.name这个属性操作即会报错，因为存在两条同属性名的属性，git会混乱，而不知道你要操作的是哪个属性配置
+
+#### 具体报错
+
+```
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+```
+
+#### 解决方案
+
+先看一下git存在哪些配置参数
+
+```
+git config
+```
+
+发现里面有个`--unset`参数，用于remove一个variable（在git中，配置被当做全局变量被存储，这和MySQL很像）
+
+但是尝试这样修改，并不理想，会提示你要修改的属性存在多条记录
+
+```
+warning: user.name has multiple values
+```
+
+正确的方法应该是对这个属性进行批量操作，即对所有同名的属性值进行修改
+
+```
+git config --global --replace-all user.name M1kewang
+```
+
+这样就git会把修改后的两条相同属性合并为一条，恢复正常
 
