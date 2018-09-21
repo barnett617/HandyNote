@@ -102,10 +102,6 @@ fdisk -l
 #### /usr/bin和/usr/local/bin区别
 - [/usr/bin & /usr/local/bin](https://unix.stackexchange.com/questions/259231/difference-between-usr-bin-and-usr-local-bin)
 
-## Gitlab
-
-- [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
-
 ## MacOS
 
 ### use zsh as the default shell
@@ -238,3 +234,46 @@ git config --global --replace-all user.name M1kewang
 
 这样就git会把修改后的两条相同属性合并为一条，恢复正常
 
+## Github
+
+### 上传本地项目到github
+
+1. Get into your project folder and `git init`, then a `.git` folder was created.
+
+2. Add your files to git.
+
+```
+git add .
+```
+
+3. Commit your added files to the stage area.
+
+```
+git commit -m "write your comment"
+```
+
+4. Link your local git project with your GitHub repository.
+
+```
+git remote add origin https://github.com/youraccount/yourrepository.git
+```
+
+5. Pull the existed files of your current GitHub repository.
+
+```
+git pull origin master
+```
+
+6. Fix the conflicts if there exist.
+
+7. Push your local project managed by git to your remote GitHub repository.
+
+```
+git push -u origin master
+```
+
+8. Done.
+
+## Gitlab
+
+- [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
