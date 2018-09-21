@@ -57,7 +57,7 @@ mvn -v
 
 - [maven-plugins-can-not-be-found-in-intellij](https://stackoverflow.com/questions/20496239/maven-plugins-can-not-be-found-in-intellij/27168770)
 
-## linux
+## Linux
 
 ### 查看Linux系统版本
 
@@ -99,10 +99,10 @@ fdisk -l
 #### which&where
 - [which & whereis](https://superuser.com/questions/40301/which-whereis-differences)
 
-### /usr/bin和/usr/local/bin区别
+#### /usr/bin和/usr/local/bin区别
 - [/usr/bin & /usr/local/bin](https://unix.stackexchange.com/questions/259231/difference-between-usr-bin-and-usr-local-bin)
 
-## gitlab
+## Gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
 
