@@ -48,6 +48,12 @@ lsb_release -a
 ```
 lsb = Linux Standard Base
 
+### CPU使用情况
+
+```
+top
+```
+
 ## gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
