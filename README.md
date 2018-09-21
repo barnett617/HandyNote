@@ -76,6 +76,14 @@ df -h
 fdisk -l
 ```
 
+### 命令解读
+
+#### which&where
+- [which & whereis](https://superuser.com/questions/40301/which-whereis-differences)
+
+### /usr/bin和/usr/local/bin区别
+- [/usr/bin & /usr/local/bin](https://unix.stackexchange.com/questions/259231/difference-between-usr-bin-and-usr-local-bin)
+
 ## gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
