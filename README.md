@@ -47,3 +47,7 @@ mvn -v
 lsb_release -a
 ```
 lsb = Linux Standard Base
+
+## gitlab
+
+- [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
