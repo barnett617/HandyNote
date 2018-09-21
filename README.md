@@ -38,3 +38,12 @@ mvn -v
 ### 插件问题
 
 - [maven-plugins-can-not-be-found-in-intellij](https://stackoverflow.com/questions/20496239/maven-plugins-can-not-be-found-in-intellij/27168770)
+
+## linux
+
+### 查看Linux系统版本
+
+```
+lsb_release -a
+```
+lsb = Linux Standard Base
