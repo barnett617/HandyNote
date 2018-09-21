@@ -54,6 +54,28 @@ lsb = Linux Standard Base
 top
 ```
 
+### CPU信息
+
+```
+cat /proc/cpuinfo |more
+```
+
+### 查看内存
+
+```
+free -m
+```
+
+### 查看磁盘
+
+```
+df -h
+```
+
+```
+fdisk -l
+```
+
 ## gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
