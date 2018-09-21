@@ -1,4 +1,4 @@
-# handy_note
+# Handy Note
 
 ## DB
 
