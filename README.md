@@ -277,6 +277,7 @@ git push -u origin master
 ## Gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
+- [社区版](https://www.cnblogs.com/restran/p/4063880.html)
 
 ## Terminal
 
