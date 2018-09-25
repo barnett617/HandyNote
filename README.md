@@ -1,7 +1,5 @@
 # Handy Note
 
-[//]: # [![](https://badge.juejin.im/entry/5ba99cf8e51d450e6c74cabe/likes.svg?style=flat-square)](https://juejin.im/post/5ba99c5a5188255c352d5eba)
-
 ## DB
 
 Use navicat11 client to connect localhost mysql database and get 
