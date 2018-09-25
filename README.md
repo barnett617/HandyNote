@@ -278,6 +278,7 @@ git push -u origin master
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
 - [社区版](https://www.cnblogs.com/restran/p/4063880.html)
+- [configuring-the-external-url](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab)
 
 ## Terminal
 
