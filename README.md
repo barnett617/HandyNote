@@ -277,3 +277,11 @@ git push -u origin master
 ## Gitlab
 
 - [install-on-ubuntu](https://about.gitlab.com/installation/#ubuntu)
+
+## Terminal
+
+- nslookup 域名相关
+
+### TODO
+
+- [ ] nslookup
