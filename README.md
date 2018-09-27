@@ -286,6 +286,64 @@ git stash pop
 
 ##### 撤销最近版本（上次提交 或 上上次）
 
+TODO
+
+### 项目改变远端仓库地址（相当于转移，比如从github转移到gitlab）
+
+#### 先拉下项目，可以看到git提交记录，查看当前的远程仓库
+
+```
+git remote -v
+```
+
+#### 修改远程仓库地址
+
+```
+git remote set-url origin(远程连接名称) git@47.98.34.171:codemonkeys/cm-server.git(新的远程仓库地址) git@gitee.com:code-monkeys/code-monkeys.git(旧的远程仓库地址)
+```
+
+#### 拉取新的远程仓库代码
+
+```
+git pull
+```
+
+#### 会提示本地拒绝合并未关联的历史提交
+
+```
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From 47.98.34.171:codemonkeys/cm-server
+ * branch            master     -> FETCH_HEAD
+ + 6c61229...1eb4e0e master     -> origin/master  (forced update)
+fatal: refusing to merge unrelated histories
+```
+
+#### 可添加`--allow-unrelated-histories`参数允许合并未关联的提交记录
+
+```
+git pull --allow-unrelated-histories
+```
+
+#### 然后会自动合并新的远程仓库和本地的git项目，如果有冲突会提示解决
+
+```
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+#### 提交远程
+
+```
+git push origin master
+```
+
+![gitremote](./static/images/gitremote.png)
+
 ## Github
 
 ### 上传本地项目到github
