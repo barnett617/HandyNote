@@ -136,6 +136,11 @@ source ~/.zshrc
 chsh -s /bin/bash
 ```
 
+### Java默认Home
+```
+/Library/Java/JavaVirtualMachines
+```
+
 ## Git
 
 ### 初始化git
