@@ -245,6 +245,47 @@ git config --global --replace-all user.name M1kewang
 
 这样就git会把修改后的两条相同属性合并为一条，恢复正常
 
+### 常用撤销操作
+
+#### 已经add && commit，发现提交错分支
+
+##### 指定版本（指一次push前的多次commit）
+
+###### 查找提交历史
+
+```
+git log
+```
+
+拷贝`要恢复到`的提交记录ID
+
+![gitlog](./static/images/gitlog.png)
+
+```
+git reset [<mode>] [<commit>]
+```
+
+mode参数不加，默认为mixed，会将已提交的文件恢复到指定历史版本，并将本地的修改保留，可以重新add进暂存区
+
+```
+git reset c9061153d10be3683762c5301ba9afce586935a6
+```
+
+![gitreset](./static/images/gitreset.png)
+
+将修改放进临时存储，切换分支，将临时存储中内容倒出
+
+```
+git stash
+git checkout -b new-branch
+git stash pop
+```
+
+![gitstash](./static/images/gitstash.png)
+
+
+##### 撤销最近版本（上次提交 或 上上次）
+
 ## Github
 
 ### 上传本地项目到github
