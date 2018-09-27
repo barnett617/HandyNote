@@ -286,6 +286,26 @@ git stash pop
 
 ##### 撤销最近版本（上次提交 或 上上次）
 
+###### 回到上次提交后的状态（即撤销本次提交commit）
+
+```
+git reset HEAD^
+```
+
+或
+
+```
+git reset HEAD~1
+```
+
+此效果等同于通过`git log`找到上一个提交ID，并通过`git reset ID`撤销本次commit，`git reset`只会撤销提交，并且从`git log`中删除，但是在不添加参数，即使用默认参数mixed，则不会撤销本地文件的修改，所以用户可以重新考虑本地提交要如何编辑文件
+
+回到上上次，则为
+
+```
+git reset HEAD~2
+```
+
 TODO
 
 ### 项目改变远端仓库地址（相当于转移，比如从github转移到gitlab）
