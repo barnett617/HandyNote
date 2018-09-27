@@ -169,6 +169,12 @@ cat ~/.ssh/id_rsa.pub
 
 3. Put it into your ssh keys in your romote repository
 
+4. Or copy the local already exist ssh key to clipboard directly(for macOS)
+
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
 ### 解决使用vs code打开从github上git clone下来的项目，修改后并做git remote关联，在git push时每次都要输入账号和密码
 
 #### 存储全局账号
