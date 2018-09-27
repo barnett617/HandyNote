@@ -306,7 +306,10 @@ git reset HEAD~1
 git reset HEAD~2
 ```
 
-TODO
+### TODO
+
+- [ ] git revert
+- [ ] git rebase
 
 ### 项目改变远端仓库地址（相当于转移，比如从github转移到gitlab）
 
