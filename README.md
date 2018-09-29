@@ -367,6 +367,22 @@ git push origin master
 
 ![gitremote](./static/images/gitremote.png)
 
+### 本地项目向远端提交报错
+
+![gitfatal](./static/images/gitfatal.png)
+
+#### 情况分析
+
+> 本地git配置的用户名和邮箱与生成ssh-key的邮箱不匹配，导致使用ssh方式推送时，识别到邮箱的不匹配而拒绝访问
+
+#### 解决方案
+
+1. 使用https方式，通过输入远程仓库用户名和密码推送
+
+2. 将本地git邮箱的配置生成ssh-key并添加到远端仓库
+
+3. 修改本地git配置为远程ssh-key中的邮箱
+
 ## Github
 
 ### 上传本地项目到github
