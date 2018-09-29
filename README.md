@@ -436,3 +436,11 @@ git push -u origin master
 ### TODO
 
 - [ ] nslookup
+
+## NPM
+
+### 查看某个包的可用版本
+
+```
+npm view jquery versions
+```
