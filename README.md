@@ -17,7 +17,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpass'
 http://idea.lanyus.com/
 ```
 
-### use zsh as the default shell in vscode
+### use zsh as the default shell in 
+
+
 
 1. Open `User Settings` and search `terminal.integrated.shell.osx`
 
@@ -34,6 +36,14 @@ http://idea.lanyus.com/
 1. `Command+Shift+P` and search `markdown`
 
 2. Choose `Open locked preview to the side`
+
+### vscode避免打开新的文件覆盖当前文件
+
+> 因为默认设置是预览文件，需要把预览文件设置为false
+
+```
+"workbench.editor.enablePreview": false
+```
 
 ## Maven 
 
