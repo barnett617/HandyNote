@@ -454,3 +454,9 @@ git push -u origin master
 ```
 npm view jquery versions
 ```
+
+## 浏览器
+
+### Chrome将超链接用新的标签打开
+
+> command + 点击链接
