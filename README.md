@@ -393,6 +393,15 @@ git push origin master
 
 3. 修改本地git配置为远程ssh-key中的邮箱
 
+### 使用http方式下载项目失败，提示`Git: fatal: The remote end hung up unexpectedly`
+
+> Maximum size in bytes of the buffer used by smart HTTP transports when POSTing data to the remote system.
+For requests larger than this buffer size, HTTP/1.1 and Transfer-Encoding: chunked is used to avoid creating a massive pack file locally. Default is 1 MiB, which is sufficient for most requests.
+
+```
+git config --global http.postBuffer 1048576000
+```
+
 ## Github
 
 ### 上传本地项目到github
