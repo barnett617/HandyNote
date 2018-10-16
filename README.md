@@ -151,6 +151,12 @@ chsh -s /bin/bash
 /Library/Java/JavaVirtualMachines
 ```
 
+### Vim显示文件行数
+
+```
+:set nu!
+```
+
 ## Git
 
 ### 初始化git
