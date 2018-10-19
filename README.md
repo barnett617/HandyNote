@@ -116,6 +116,26 @@ scp -(P sshPort) /home/lnmp0.4.tar.gz root@hostOrIp:/root/
 3. 远程位置如果为目录，需要以`/`结尾
 4. 本地拷贝源可为文件或目录，目录需要结尾加`/`
 
+### 下载文件
+
+1. curl
+
+```
+curl -o ZenTaoPMS.10.4.stable.int.zbox_64.tar.gz http://dl.cnezsoft.com/zentao/10.4/ZenTaoPMS.10.4.stable.int.zbox_64.tar.gz
+```
+需要使用`-o`参数指定资源输出到文件而非输出到控制台，并且指定输出到的文件名，否则会提示
+
+```
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+```
+
+2. wget
+
+```
+wget http://dl.cnezsoft.com/zentao/10.4/ZenTaoPMS.10.4.stable.int.zbox_64.tar.gz
+```
+
 ### 命令解读
 
 #### which&where
