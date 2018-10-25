@@ -189,6 +189,12 @@ chsh -s /bin/bash
 /Library/Java/JavaVirtualMachines
 ```
 
+### 锁屏快捷键
+
+```
+control+command+q
+```
+
 ## Vim
 
 ### 显示行数
