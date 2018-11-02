@@ -17,9 +17,12 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpass'
 http://idea.lanyus.com/
 ```
 
-### use zsh as the default shell in 
+### IDEA crack
 
+- https://www.jianshu.com/p/3c87487e7121
+- http://idea.lanyus.com/
 
+### use zsh as the default shell
 
 1. Open `User Settings` and search `terminal.integrated.shell.osx`
 
@@ -149,6 +152,10 @@ wget http://dl.cnezsoft.com/zentao/10.4/ZenTaoPMS.10.4.stable.int.zbox_64.tar.gz
 
 #### /usr/bin和/usr/local/bin区别
 - [/usr/bin & /usr/local/bin](https://unix.stackexchange.com/questions/259231/difference-between-usr-bin-and-usr-local-bin)
+
+### 多机器部署
+
+- [多机器部署](http://blog.51cto.com/yifangyou/610305)
 
 ## MacOS
 
@@ -542,6 +549,43 @@ npm view jquery versions
 
 > command + 点击链接
 
-## Common abbreviation
+## Common Abbreviations
 
 - OCR = Optical character recognition / optical character reader
+
+## Common Links
+
+### JS
+
+- [JS教程](https://wangdoc.com/javascript/events/globaleventhandlers.html)
+
+### CSS
+
+- [reset css](https://meyerweb.com/eric/tools/css/reset/)
+
+### React
+
+- [组件通信](http://taobaofed.org/blog/2016/11/17/react-components-communication/)
+
+### Reflux
+
+- [ReFlux细说](https://www.cnblogs.com/lovesueee/p/4893218.html#undefined)
+
+### Node.js
+
+- [node官方文档](https://nodejs.org/docs/latest/api/perf_hooks.html)
+
+### Image
+
+- [在线图片裁剪](https://www.yasuotu.com/editor)
+- [图片格式转换](https://cloudconvert.com/png-to-ico)
+
+### JSON
+
+- [JSON格式化](https://www.json.cn/#)
+
+
+
+
+
+
