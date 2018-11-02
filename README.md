@@ -541,3 +541,7 @@ npm view jquery versions
 ### Chrome将超链接用新的标签打开
 
 > command + 点击链接
+
+## Common abbreviation
+
+- OCR = Optical character recognition / optical character reader
