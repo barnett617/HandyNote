@@ -203,6 +203,10 @@ chsh -s /bin/bash
 control+command+q
 ```
 
+### 软件下载
+
+- [xclient](http://xclient.info/s/cornerstone.html?t=8f960294b8e049699cd802d64b936303be440b3d#versions)
+
 ## Vim
 
 ### 显示行数
@@ -589,10 +593,46 @@ npm view jquery versions
 
 - [JSON格式化](https://www.json.cn/#)
 
+### Nginx
+
+- [Tengine](http://tengine.taobao.org/book/chapter_02.html)
+
+### ShadowSocksR
+
+- [搭建教程](https://bbs.ihei5.com/thread-344353-1-1.html)
+- [vultr-vps](https://my.vultr.com/getstarted/)
+- [自建ss服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)
+- [加速包](https://www.91yun.co/serverspeeder91yun)
+
+### 安全相关
+
+- [漏洞银行](https://www.bugbank.cn/live/?id=109769)
+
 ### 编程相关
 
 - [CODE Q&A Solved](https://code.i-harness.com/zh-CN/)
 
+### 博客列表
+
+- [葛家峰](https://imyunge.com/)
+- [MySQL8.0 安装踩坑指南](https://da.gabrieworks.com/19553)
+- [Spring AOP总结](http://www.stormjie.top/2018/09/02/Spring%20AOP%E6%80%BB%E7%BB%93/)
+- [FEX](http://fex.baidu.com/blog/2015/11/fex-weekly-23/)
+- [安全技术精粹](https://paper.seebug.org/15/)
+- [ECMAScript5.1中文版](http://yanhaijing.com/es5/#about)
+- [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
+- [JS前端开发群月报](https://www.kancloud.cn/jsfront/month/573890)
+- [视频播放的那些事](http://taobaofed.org/blog/2016/05/23/video-player/)
+- [Vue的计算属性](https://www.w3cplus.com/vue/vue-computed.html)
+- [《JavaScript 标准参考教程（alpha）》](http://javascript.ruanyifeng.com/nodejs/module.html)
+- [The JavaScript Learning Landscape in 2018](https://css-tricks.com/javascript-learning-landscape-2018/)
+- [GitHub上排名前十的热门Vue项目](https://my.oschina.net/liuyuantao/blog/1510726)
+- [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36?utm_source=gold_browser_extension)
+
+### 生活相关
+
+- [探索爱尔兰](https://www.discoverireland.cn/)
+- [雪莱诗集](https://freewechat.com/a/MzAwNDM0ODE0OA==/2247485561/1)
 
 
 
