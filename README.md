@@ -230,6 +230,10 @@ control+command+q
 
 光标所在行dd则删除光标所在行
 
+## SVN
+
+[mac下svn安装教程](https://www.jianshu.com/p/1ab997353201)
+
 ## Git
 
 ### 初始化git
