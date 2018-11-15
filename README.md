@@ -490,6 +490,10 @@ For requests larger than this buffer size, HTTP/1.1 and Transfer-Encoding: chunk
 git config --global http.postBuffer 1048576000
 ```
 
+### git for windows
+
+- [下载链接](https://npm.taobao.org/mirrors/git-for-windows)
+
 ## Github
 
 ### 上传本地项目到github
