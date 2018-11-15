@@ -593,6 +593,10 @@ npm view jquery versions
 
 - [JSON格式化](https://www.json.cn/#)
 
+### Linux
+
+- [Win10安装cygwin并添加apt-cyg](http://www.cnblogs.com/feipeng8848/p/8555648.html)
+
 ### Nginx
 
 - [Tengine](http://tengine.taobao.org/book/chapter_02.html)
