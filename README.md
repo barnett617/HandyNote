@@ -587,6 +587,7 @@ npm view jquery versions
 ### Node.js
 
 - [node官方文档](https://nodejs.org/docs/latest/api/perf_hooks.html)
+- [how-to-install-node-js-and-npm-on-centos-7](https://www.rosehosting.com/blog/how-to-install-node-js-and-npm-on-centos-7/)
 
 ### Image
 
