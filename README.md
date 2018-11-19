@@ -601,6 +601,7 @@ npm view jquery versions
 ### Linux
 
 - [Win10安装cygwin并添加apt-cyg](http://www.cnblogs.com/feipeng8848/p/8555648.html)
+- [Centos7安装nvm、node、pm2](https://www.jianshu.com/p/ebb0e97eff83)
 
 ### Nginx
 
