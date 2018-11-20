@@ -602,12 +602,13 @@ npm view jquery versions
 
 - [Win10安装cygwin并添加apt-cyg](http://www.cnblogs.com/feipeng8848/p/8555648.html)
 - [Centos7安装nvm、node、pm2](https://www.jianshu.com/p/ebb0e97eff83)
+- [how-to-install-java-on-centos-and-fedora](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora)
+- [how-to-install-and-use-docker-on-centos-7](https://linuxize.com/post/how-to-install-and-use-docker-on-centos-7/)
 
 ### Nginx
 
 - [Tengine](http://tengine.taobao.org/book/chapter_02.html)
 - [install-nginx-on-centos-7](https://www.tecmint.com/install-nginx-on-centos-7/)
-- [how-to-install-java-on-centos-and-fedora](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora)
 
 ### ShadowSocksR
 
