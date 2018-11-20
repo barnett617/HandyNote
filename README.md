@@ -607,6 +607,7 @@ npm view jquery versions
 
 - [Tengine](http://tengine.taobao.org/book/chapter_02.html)
 - [install-nginx-on-centos-7](https://www.tecmint.com/install-nginx-on-centos-7/)
+- [how-to-install-java-on-centos-and-fedora](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora)
 
 ### ShadowSocksR
 
