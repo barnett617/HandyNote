@@ -643,6 +643,10 @@ npm view jquery versions
 - [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36?utm_source=gold_browser_extension)
 - [angular](https://toddmotto.com/speaking/)
 
+### 微信小程序
+
+- [示例](https://zhuanlan.zhihu.com/p/24776703)
+
 ### 生活相关
 
 - [探索爱尔兰](https://www.discoverireland.cn/)
