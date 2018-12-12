@@ -604,6 +604,7 @@ npm view jquery versions
 - [Centos7安装nvm、node、pm2](https://www.jianshu.com/p/ebb0e97eff83)
 - [how-to-install-java-on-centos-and-fedora](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora)
 - [how-to-install-and-use-docker-on-centos-7](https://linuxize.com/post/how-to-install-and-use-docker-on-centos-7/)
+- [how-to-install-apache-tomcat-8-on-centos-7](https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7)
 
 ### Nginx
 
