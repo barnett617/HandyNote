@@ -610,6 +610,7 @@ npm view jquery versions
 
 - [Tengine](http://tengine.taobao.org/book/chapter_02.html)
 - [install-nginx-on-centos-7](https://www.tecmint.com/install-nginx-on-centos-7/)
+- [https跳转](https://cloud.tencent.com/developer/article/1026994)
 
 ### ShadowSocksR
 
