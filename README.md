@@ -648,6 +648,7 @@ npm view jquery versions
 ### 微信小程序
 
 - [示例](https://zhuanlan.zhihu.com/p/24776703)
+- [自定义title](https://www.jianshu.com/p/7393c800ba09)
 
 ### 生活相关
 
