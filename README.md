@@ -659,7 +659,9 @@ npm view jquery versions
 - [探索爱尔兰](https://www.discoverireland.cn/)
 - [雪莱诗集](https://freewechat.com/a/MzAwNDM0ODE0OA==/2247485561/1)
 
+### 工具
 
+- [中文字体压缩器](http://font-spider.org/)
 
 
 
