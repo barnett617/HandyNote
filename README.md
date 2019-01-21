@@ -662,6 +662,7 @@ npm view jquery versions
 ### 工具
 
 - [中文字体压缩器](http://font-spider.org/)
+- [es5内置对象](https://www.w3.org/html/ig/zh/wiki/ES5/%E6%A0%87%E5%87%86_ECMAScript_%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1#x15.1.3.1)
 
 
 
