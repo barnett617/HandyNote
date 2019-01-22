@@ -562,6 +562,12 @@ npm view jquery versions
 
 > command + 点击链接
 
+### 调试手机webview或h5
+
+- iphone：数据线连mac，打开safari浏览器，点击开发选项，选择手机通过手机safari浏览器的h5页面或hybrid中的webview（前提建立在手机打开开发者选项，需要配合xcode，详见[iPhone中如何打开“开发者”选项](https://www.jianshu.com/p/707d6e3ccd10)）
+
+- 安卓手机：数据线连电脑，电脑打开chrome，地址栏输入`chrome://inspect/#devices`，在remote target中找到手机对应的页面地址，点击inspect
+
 ## Common Abbreviations
 
 - OCR = Optical character recognition / optical character reader
