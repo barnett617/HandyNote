@@ -656,6 +656,10 @@ npm view jquery versions
 - [示例](https://zhuanlan.zhihu.com/p/24776703)
 - [自定义title](https://www.jianshu.com/p/7393c800ba09)
 
+### 移动开发
+
+- [从零开发移动端IM](https://www.jianshu.com/p/3b20268e020d)
+
 ### IOS
 
 - [mac chrome调试iphone webview](https://blog.csdn.net/Hello_Hwc/article/details/80721246)
