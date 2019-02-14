@@ -626,6 +626,22 @@ npm view jquery versions
 - [加速包](https://www.91yun.co/serverspeeder91yun)
 - [ss-vpn-review](https://www.freeluffy.com/ss-vpn-review/)
 
+### 科学上网
+
+```
+wget –no-check-certificate  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+```
+
+```
+chmod +x shadowsocks.sh
+```
+
+```
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
+
+协议选7，aes-256-cfb
+
 ### 安全相关
 
 - [漏洞银行](https://www.bugbank.cn/live/?id=109769)
