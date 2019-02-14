@@ -659,6 +659,7 @@ npm view jquery versions
 ### 移动开发
 
 - [从零开发移动端IM](https://www.jianshu.com/p/3b20268e020d)
+- [滑动穿透](https://blog.csdn.net/zhanglong_web/article/details/82865596)
 
 ### IOS
 
