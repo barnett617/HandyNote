@@ -678,6 +678,10 @@ chmod +x shadowsocks.sh
 - [从零开发移动端IM](https://www.jianshu.com/p/3b20268e020d)
 - [滑动穿透](https://blog.csdn.net/zhanglong_web/article/details/82865596)
 
+### Web开发
+
+- [w3help](http://w3help.org/zh-cn/causes/BX9008)
+
 ### IOS
 
 - [mac chrome调试iphone webview](https://blog.csdn.net/Hello_Hwc/article/details/80721246)
