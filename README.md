@@ -581,6 +581,7 @@ npm view jquery versions
 ### CSS
 
 - [reset css](https://meyerweb.com/eric/tools/css/reset/)
+- [css-tricks](https://css-tricks.com/css-modules-part-1-need/)
 
 ### React
 
