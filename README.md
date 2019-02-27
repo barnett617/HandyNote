@@ -114,6 +114,19 @@ fdisk -l
 netstat -lnp | grep 3306
 ```
 
+```
+netstat -tunlp | grep 18706
+```
+
+显示如下
+
+```
+tcp        0      0 0.0.0.0:18706           0.0.0.0:*               LISTEN      15957/python        
+udp        0      0 0.0.0.0:18706           0.0.0.0:*                           15957/python
+```
+
+如果centos提示未安装netstat，可通过`yum install net-tools`进行安装，然后查看某个端口是否被占用
+
 ### 远程传输(将本地文件传输至远端服务器)
 
 ```
