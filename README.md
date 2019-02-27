@@ -698,6 +698,12 @@ chmod +x shadowsocks.sh
 
 - [w3help](http://w3help.org/zh-cn/causes/BX9008)
 
+### 后端
+
+#### Java
+
+- [javastack](https://www.javastack.cn/article/2019/coding-by-leijun-1994/)
+
 ### IOS
 
 - [mac chrome调试iphone webview](https://blog.csdn.net/Hello_Hwc/article/details/80721246)
