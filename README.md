@@ -684,6 +684,7 @@ chmod +x shadowsocks.sh
 - [专注前端](https://imququ.com/post/document-scrollingelement-in-chrome.html)
 - [太空小孩](https://spacekid.me/gzallen/)
 - [lambda.academy](https://lambda.academy/how-to-learn-english-as-a-beginner/)
+- [TG](http://ghmagical.com/)
 
 ### 微信小程序
 
