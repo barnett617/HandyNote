@@ -22,6 +22,7 @@ http://idea.lanyus.com/
 - https://www.jianshu.com/p/3c87487e7121
 - http://idea.lanyus.com/
 - https://www.jianshu.com/p/3c87487e7121
+- https://www.liangzl.com/get-article-detail-114916.html
 
 ### use zsh as the default shell
 
