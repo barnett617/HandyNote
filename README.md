@@ -270,6 +270,10 @@ git config --global user.name "your name"
 git config --global user.email your email
 ```
 
+### 删除本地和远程分支
+
+https://qiita.com/hudichao/items/d665cd769ed1d2ce832a
+
 ### 本地生成ssh key并放在远端以实现SSH访问
 
 1. Generate a ssh key locally
