@@ -704,6 +704,7 @@ chmod +x shadowsocks.sh
 ### Web开发
 
 - [w3help](http://w3help.org/zh-cn/causes/BX9008)
+- [为什么主流方案用GIF上报数据](http://itindex.net/detail/59120-%E5%89%8D%E7%AB%AF-%E7%9B%91%E6%8E%A7-gif)
 
 #### Angular
 
