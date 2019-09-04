@@ -631,6 +631,10 @@ npm view jquery versions
 - [how-to-install-and-use-docker-on-centos-7](https://linuxize.com/post/how-to-install-and-use-docker-on-centos-7/)
 - [how-to-install-apache-tomcat-8-on-centos-7](https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7)
 
+### Windows
+
+- [Win10重置Linux子系统用户密码教程](https://www.windows10.pro/reset-linux-subsystem-user-password/)
+
 ### Nginx
 
 - [Tengine](http://tengine.taobao.org/book/chapter_02.html)
