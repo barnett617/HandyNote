@@ -600,6 +600,7 @@ npm view jquery versions
 
 - [reset css](https://meyerweb.com/eric/tools/css/reset/)
 - [css-tricks](https://css-tricks.com/css-modules-part-1-need/)
+- [CSS3实现自定义多选框checkbox](http://www.hehaibao.com/css3-custom-checkbox-demo/)
 
 ### React
 
