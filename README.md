@@ -1,5 +1,9 @@
 # Handy Note
 
+## 骚的不行的网站
+
+- [地址栏玩贪吃蛇](https://codepen.io/laoyao/pen/XWrgVWVcodepen.io/laoyao/pen/XWr...)
+
 ## DB
 
 Use navicat11 client to connect localhost mysql database and get 
