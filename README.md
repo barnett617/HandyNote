@@ -2,6 +2,7 @@
 
 ## 好的资源网站
 
+- [dash下载及证书（mac）](https://kakarot.net/cgi-bin/dash-macos-license)
 - [图片unsplash](unsplash.com)
 - [Adobe CC](https://1992s.com/)
 - [Ascii图形生成](http://www.network-science.de/ascii/)
