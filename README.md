@@ -22,6 +22,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpass'
 
 ## IDE
 
+### sublime3 license
+
+- https://www.pythonblogs.com/sublime-text-license-key/
+
 ### idea2018 active code
 
 ```
