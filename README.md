@@ -25,6 +25,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpass'
 ### sublime3 license
 
 - https://www.pythonblogs.com/sublime-text-license-key/
+- [mac修改host](https://cloud.tencent.com/developer/article/1545498)
 
 ### idea2018 active code
 
