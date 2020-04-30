@@ -1,5 +1,7 @@
 # Handy Note
 
+- [homebrew加速](https://learnku.com/articles/18908)
+
 ## 好的资源网站
 
 - [dash下载及证书（mac）](https://kakarot.net/cgi-bin/dash-macos-license)
