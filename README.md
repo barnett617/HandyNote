@@ -1,6 +1,58 @@
 # Handy Note
 
-- [homebrew加速](https://learnku.com/articles/18908)
+## [homebrew加速](https://learnku.com/articles/18908)
+
+替换brew.git、homebrew-core.git地址为阿里巴巴下镜像下的仓库
+```
+cd "$(brew --repo)"
+git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+```
+
+如果需要还原为原仓库则如下
+```
+cd "$(brew --repo)"
+git remote set-url origin https://github.com/Homebrew/brew.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+git remote set-url origin https://github.com/Homebrew/homebrew-core.git
+```
+
+修改homebrew-bottles访问地址
+
+先查看本机shell
+```
+echo $SHELL
+```
+
+如果是/bin/zsh则
+```
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.zshrc
+source ~/.zshrc
+```
+
+还原方式为
+```
+vi ~/.zshrc
+删除 HOMEBREW_BOTTLE_DOMAIN 这一行配置
+source ~/.zshrc
+```
+
+如果是/bin/bash则
+
+```
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+还原方式为
+```
+vi ~/.bash_profile
+删除 HOMEBREW_BOTTLE_DOMAIN 这一行配置
+source ~/.bash_profile
+```
 
 ## 好的资源网站
 
