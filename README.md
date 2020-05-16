@@ -1,5 +1,7 @@
 # Handy Note
 
+## [angular常用性能优化](https://limeii.github.io/2019/08/angular-performance-checklists/)
+
 ## [homebrew加速](https://learnku.com/articles/18908)
 
 替换brew.git、homebrew-core.git地址为阿里巴巴下镜像下的仓库
